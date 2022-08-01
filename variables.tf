@@ -44,3 +44,9 @@ variable "aws_key_name" {
   default     = "user-key"
   description = "stored aws ssh key"
 }
+
+variable "ssh_key" {
+  default = "/Users/ssh/private_key"
+  description = "location of ssh private key file"
+  
+}

@@ -183,7 +183,7 @@ resource "null_resource" "configure-splunk-app" {
   connection {
     type        = "ssh"
     user        = "centos"
-    private_key = file("/Users/user/.ssh/id_rsa_aws")
+    private_key = file(var.ssh_key)
     host        = aws_eip.splunk.public_ip
   }
 
@@ -212,7 +212,7 @@ resource "null_resource" "configure-splunk-app" {
     connection {
       type        = "ssh"
       user        = "centos"
-      private_key = file("/Users/user/.ssh/id_rsa_aws")
+      private_key = file(var.ssh_key)
       host        = aws_eip.splunk.public_ip
     }
   }
