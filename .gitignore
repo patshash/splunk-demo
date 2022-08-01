@@ -1,0 +1,34 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+*.zip
+
+#  Local .vagrant directories
+**/.vagrant/*
+
+# license file
+*.hclic
+
+.ipynb_checkpoints
+
+.DS_Store
+enterprise/vault/demo/aws_dynamic_secrets/aws_creds.sh
+datasource-attack/.terraform.lock.hcl
+infosys/license_keys.sh
+
+*.logs
+
+**/customers/*
+
+.idea
+.vscode
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
