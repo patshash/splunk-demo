@@ -10,4 +10,4 @@ Update the following files;
 4. `main.tf` - update the private_key value used for provisioning.  
 5. `acme.tf` - Update the ACME server to the production URL when testing is complete.
 
-Dashboard files may need to be updated in files directory if new versions are released.
+Dashboard files will need to be downloaded to files directory and updated in main.tf provisioning stanza.
